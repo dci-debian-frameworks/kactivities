@@ -1,0 +1,6 @@
+kactivities (4:4.7.90-0ubuntu1) precise; urgency=low
+
+  * Initial package
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 13 Dec 2011 11:53:27 +0000

@@ -1,0 +1,5 @@
+usr/lib/libkactivities.so
+usr/include/kactivities
+usr/include/KDE/KActivities
+usr/lib/cmake/KActivities/KActivitiesConfig.cmake
+usr/lib/pkgconfig/libkactivities.pc

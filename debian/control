@@ -1,0 +1,51 @@
+Source: kactivities
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.90),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.7.90), libsoprano-dev, shared-desktop-ontologies
+Standards-Version: 3.9.2
+Homepage: http://www.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kactivities
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kactivities
+
+Package: libkactivities-bin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: executables for the KDE Activities
+ This package contains binary files shipped with the KDE Activities library.
+ .
+ This package is part of the Plasma Contour Active Platform.
+
+Package: libkactivities6
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkactivities-bin (= ${binary:Version})
+Description: Activities library
+ This library provides functionality for managing Activities.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkactivities-dev
+Section: libdevel
+Architecture: any
+Depends: libkactivities6 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libkactivities6}
+Description: development files for the KDE Activities libraries
+ This library provides functionality for managing Activities.
+ .
+ This package contains developer files for the library.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: libkactivities-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends}, libkactivities6 (= ${binary:Version})
+Description: debugging symbols for libkactivities5
+ This library provides functionality for managing Activities.
+ .
+ This package contains the debugging files used to investigate problems with
+ the libkactivities5 library.
