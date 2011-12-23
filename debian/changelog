@@ -1,6 +1,7 @@
 kactivities (4:4.7.95-0ubuntu1) UNRELEASED; urgency=low
 
   * New upstream release candidate
+    - update libkactivities-dev.install
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 23 Dec 2011 23:39:41 +0100
 
