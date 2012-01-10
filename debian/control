@@ -47,6 +47,7 @@ Section: debug
 Architecture: any
 Priority: extra
 Depends: ${misc:Depends}, libkactivities6 (= ${binary:Version})
+Suggests: libkactivities-bin (= ${binary:Version})
 Description: debugging symbols for libkactivities5
  This library provides functionality for managing Activities.
  .
