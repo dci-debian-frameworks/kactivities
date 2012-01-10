@@ -26,7 +26,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkactivities-bin (= ${binary:Version})
 Description: Activities library
- This library provides functionality for managing Activities.
+ This library provides functionality for managing activities.
  .
  This package is part of the KDE Development Platform libraries module.
 
@@ -36,9 +36,8 @@ Architecture: any
 Depends: libkactivities6 (= ${binary:Version}), ${misc:Depends},
  ${sameVersionDep:kdelibs5-dev:libkactivities6}
 Description: development files for the KDE Activities libraries
- This library provides functionality for managing Activities.
- .
- This package contains developer files for the library.
+ This package contains the development files for developing with the
+ kactivities library.
  .
  This package is part of the KDE Development Platform libraries module.
 
@@ -48,8 +47,8 @@ Architecture: any
 Priority: extra
 Depends: ${misc:Depends}, libkactivities6 (= ${binary:Version})
 Suggests: libkactivities-bin (= ${binary:Version})
-Description: debugging symbols for libkactivities5
- This library provides functionality for managing Activities.
+Description: debugging symbols for libkactivities
+ This library provides functionality for managing activities.
  .
  This package contains the debugging files used to investigate problems with
- the libkactivities5 library.
+ the libkactivities library.
