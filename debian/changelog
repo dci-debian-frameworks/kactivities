@@ -1,5 +1,6 @@
 kactivities (4:4.7.97-0r0) UNRELEASED; urgency=low
 
+  [ Eshat Cakar ]
   * New upstream release, start from kubuntu packaging, thanks!
 
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 23 Dec 2011 23:39:41 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jan 2012 23:45:05 +0100
