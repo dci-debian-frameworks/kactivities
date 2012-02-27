@@ -14,6 +14,8 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kactivi
 Package: libkactivities-bin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kde-runtime-data (<< 4:4.8.0)
+Replaces: kde-runtime-data (<< 4:4.8.0)
 Description: executables for the KDE Activities
  This package contains binary files shipped with the KDE Activities library.
  .

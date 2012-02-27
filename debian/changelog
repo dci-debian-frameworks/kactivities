@@ -1,4 +1,10 @@
-kactivities (4:4.8.0-0ubuntu1~ppa1) precise; urgency=low
+kactivities (4:4.8.0-0ubuntu2) UNRELEASED; urgency=low
+
+  * Add breaks/replaces for libkactivities-bin against kde-runtime-data
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 27 Feb 2012 07:59:19 +0100
+
+kactivities (4:4.8.0-0ubuntu1) precise; urgency=low
 
   * New upstream release
 
