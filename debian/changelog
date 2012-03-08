@@ -1,7 +1,7 @@
-kactivities (4:4.8.0-0r0) UNRELEASED; urgency=low
+kactivities (4:4.8.1-0r0) UNRELEASED; urgency=low
 
   [ Eshat Cakar ]
   * New upstream release, start from kubuntu packaging, thanks!
   * Bump kdelibs5-dev depends to 4.8.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 25 Jan 2012 17:57:33 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:11:33 +0100
