@@ -16,6 +16,8 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kactivities.git
 Package: libkactivities-bin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kde-runtime (<< 4:4.8), kde-runtime-data (<< 4:4.8)
+Replaces: kde-runtime (<< 4:4.8), kde-runtime-data (<< 4:4.8)
 Description: executables for the KDE Activities
  This package contains binary files shipped with the KDE Activities library.
  .
