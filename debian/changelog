@@ -1,3 +1,9 @@
+kactivities (4:4.8.2-0ubuntu2) precise-proposed; urgency=low
+
+  * Rebuild for .pot generation
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 12 Apr 2012 16:31:59 +0100
+
 kactivities (4:4.8.2-0ubuntu1) precise; urgency=low
 
   * New upstream release
