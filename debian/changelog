@@ -1,3 +1,10 @@
+kactivities (4:4.8.3-0ubuntu0.1) UNRELEASED; urgency=low
+
+  * New upstream release
+    - add activitymanager_plugin_globalshortcuts to libkactivities-bin.install
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 May 2012 15:40:56 +0200
+
 kactivities (4:4.8.2-0ubuntu2) precise-proposed; urgency=low
 
   * Rebuild for .pot generation
