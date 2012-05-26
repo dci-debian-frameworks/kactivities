@@ -10,6 +10,7 @@ libkactivities.so.6 libkactivities6 #MINVER#
  _ZN11KActivities10Controller15setActivityNameERK7QStringS3_@Base 4.7.90
  _ZN11KActivities10Controller16staticMetaObjectE@Base 4.7.90
  _ZN11KActivities10Controller18setCurrentActivityERK7QString@Base 4.7.90
+ _ZN11KActivities10Controller20setActivityEncryptedERK7QStringb@Base 4:4.8.80
  _ZN11KActivities10ControllerC1EP7QObject@Base 4.7.90
  _ZN11KActivities10ControllerC2EP7QObject@Base 4.7.90
  _ZN11KActivities10ControllerD0Ev@Base 4.7.90
@@ -36,7 +37,9 @@ libkactivities.so.6 libkactivities6 #MINVER#
  _ZN11KActivities4Info11infoChangedEv@Base 4.7.90
  _ZN11KActivities4Info11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.7.90
  _ZN11KActivities4Info11qt_metacastEPKc@Base 4.7.90
+ _ZN11KActivities4Info12linkResourceERK4KUrl@Base 4:4.8.80
  _ZN11KActivities4Info12stateChangedENS0_5StateE@Base 4.7.90
+ _ZN11KActivities4Info14unlinkResourceERK4KUrl@Base 4:4.8.80
  _ZN11KActivities4Info16staticMetaObjectE@Base 4.7.90
  _ZN11KActivities4Info4nameERK7QString@Base 4.7.90
  _ZN11KActivities4Info5addedEv@Base 4.7.90
@@ -57,6 +60,7 @@ libkactivities.so.6 libkactivities6 #MINVER#
  _ZN11KActivities8Consumer20serviceStatusChangedENS0_13ServiceStatusE@Base 4.7.90
  _ZN11KActivities8Consumer22currentActivityChangedERK7QString@Base 4.7.90
  _ZN11KActivities8Consumer22linkResourceToActivityERK4QUrlRK7QString@Base 4.7.90
+ _ZN11KActivities8Consumer26unlinkResourceFromActivityERK4QUrlRK7QString@Base 4:4.8.80
  _ZN11KActivities8ConsumerC1EP7QObject@Base 4.7.90
  _ZN11KActivities8ConsumerC2EP7QObject@Base 4.7.90
  _ZN11KActivities8ConsumerD0Ev@Base 4.7.90
@@ -70,8 +74,10 @@ libkactivities.so.6 libkactivities6 #MINVER#
  _ZNK11KActivities16ResourceInstance5winIdEv@Base 4.7.90
  _ZNK11KActivities16ResourceInstance8mimetypeEv@Base 4.7.90
  _ZNK11KActivities4Info10metaObjectEv@Base 4.7.90
+ _ZNK11KActivities4Info11isEncryptedEv@Base 4:4.8.80
  _ZNK11KActivities4Info11resourceUriEv@Base 4.7.90
  _ZNK11KActivities4Info12availabilityEv@Base 4.7.90
+ _ZNK11KActivities8Consumer26isResourceLinkedToActivityERK4QUrlRK7QString@Base 4:4.8.80
  _ZNK11KActivities4Info2idEv@Base 4.7.90
  _ZNK11KActivities4Info3uriEv@Base 4.7.90
  _ZNK11KActivities4Info4iconEv@Base 4.7.90

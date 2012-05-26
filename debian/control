@@ -6,6 +6,8 @@ XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.
 Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.8.80),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ libx11-dev,
+ libqt4-opengl-dev,
  kdelibs5-dev (>= 4:4.8),
  libsoprano-dev,
  shared-desktop-ontologies (>= 0.8.1)
@@ -16,13 +18,34 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kactivi
 
 Package: libkactivities-bin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ activitymanager-uihandler-kdialog | activitymanager-uihandler
 Breaks: kde-runtime (<< 4:4.8), kde-runtime-data (<< 4:4.8),
  kdebase-runtime (<< 4:4.8), kdebase-runtime-data (<< 4:4.8)
 Replaces: kde-runtime (<< 4:4.8), kde-runtime-data (<< 4:4.8),
  kdebase-runtime (<< 4:4.8), kdebase-runtime-data (<< 4:4.8)
 Description: executables for the KDE Activities
  This package contains binary files shipped with the KDE Activities library.
+ .
+ This package is part of the Plasma Contour Active Platform.
+
+Package: activitymanager-uihandler-kdialog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: activitymanager-uihandler
+Description: KDialog-based ActivityManager frontend
+ This package contains a KDialog-based frontend for the KDE Activities
+ library.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
+Package: activitymanager-uihandler-declarative
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: activitymanager-uihandler
+Description: KDialog-based ActivityManager frontend
+ This package contains a QML-based frontend for the KDE Activities
+ library.
  .
  This package is part of the Plasma Contour Active Platform.
 

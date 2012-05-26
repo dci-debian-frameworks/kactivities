@@ -1,11 +1,21 @@
 kactivities (4:4.8.80-0ubuntu1) UNRELEASED; urgency=low
 
+  [ Jonathan Thomas ]
+  * New upstream beta release:
+    - Update libactivities6.symbols for new symbols
+    - Update libkactivities-bin.install for removed files
+    - Add two new packages, activitymanager-uihandler-kdialog and
+      activity-uihandler-declarative to contain the two frontends for the
+      ActivityManager runtime. Both provide the activitymanager-uihandler
+      virtual package.
+    - Add an optional dependency to libkactivities-bin for either
+      activity-uihandler-kdialog, or the activity-uihandler virtual package.
+
+  [ Philip Muškovac ]
   * Merge with debian git, remaining changes: 
     - keep symbol file
-  * New upstream beta release
-    TODO
 
- -- Philip Muškovac <yofel@kubuntu.org>  Mon, 21 May 2012 08:24:10 +0200
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 24 May 2012 23:34:02 -0400
 
 kactivities (4:4.8.3-0ubuntu1) quantal; urgency=low
 
