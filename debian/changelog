@@ -1,4 +1,6 @@
-kactivities (4:4.8.3-0r1) UNRELEASED; urgency=low
+kactivities (4:4.8.3-1) experimental; urgency=low
+
+  * Team upload.
 
   [ Eshat Cakar ]
   * New upstream release, start from kubuntu packaging, thanks!
@@ -7,4 +9,4 @@ kactivities (4:4.8.3-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.3.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Mar 2012 21:11:33 +0100
+ -- Modestas Vainius <modax@debian.org>  Sat, 26 May 2012 20:37:00 +0300
