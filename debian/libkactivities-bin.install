@@ -3,8 +3,16 @@ usr/lib/kde4/activitymanager_plugin_activityranking.so
 usr/lib/kde4/activitymanager_plugin_globalshortcuts.so
 usr/lib/kde4/activitymanager_plugin_slc.so
 usr/lib/kde4/activitymanager_plugin_sqlite.so
+usr/lib/kde4/activitymanager_uihandler_declarative.so
+usr/lib/kde4/activitymanager_uihandler_kdialog.so
 usr/lib/kde4/kactivitymanagerd_fileitem_linking_plugin.so
 usr/lib/kde4/kio_activities.so
+usr/share/kde4/apps/plasma/packages/org.kde.ActivityManager.UiHandler/metadata.desktop
+usr/share/kde4/apps/plasma/packages/org.kde.ActivityManager.UiHandler/contents/ui/PasswordDialog.qml
+usr/share/kde4/apps/plasma/packages/org.kde.ActivityManager.UiHandler/contents/ui/uihandler.qml
+usr/share/kde4/apps/plasma/packages/org.kde.ActivityManager.UiHandler/contents/ui/NewPasswordDialog.qml
+usr/share/kde4/apps/plasma/packages/org.kde.ActivityManager.UiHandler/contents/ui/ChoiceDialog.qml
+usr/share/kde4/apps/plasma/packages/org.kde.ActivityManager.UiHandler/contents/ui/MessageDialog.qml
 usr/share/kde4/services/activities.protocol
 usr/share/kde4/services/activitymanager-plugin-activityranking.desktop
 usr/share/kde4/services/activitymanager-plugin-globalshortcuts.desktop
