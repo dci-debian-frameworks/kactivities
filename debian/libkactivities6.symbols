@@ -77,7 +77,7 @@ libkactivities.so.6 libkactivities6 #MINVER#
  _ZNK11KActivities4Info11isEncryptedEv@Base 4:4.8.80
  _ZNK11KActivities4Info11resourceUriEv@Base 4.7.90
  _ZNK11KActivities4Info12availabilityEv@Base 4.7.90
- _ZNK11KActivities8Consumer26isResourceLinkedToActivityERK4QUrlRK7QString@Base 4:4.8.80
+ _ZNK11KActivities4Info15linkedResourcesEv@Base 4:4.8.80a
  _ZNK11KActivities4Info2idEv@Base 4.7.90
  _ZNK11KActivities4Info3uriEv@Base 4.7.90
  _ZNK11KActivities4Info4iconEv@Base 4.7.90
@@ -88,6 +88,7 @@ libkactivities.so.6 libkactivities6 #MINVER#
  _ZNK11KActivities8Consumer14listActivitiesENS_4Info5StateE@Base 4.7.90
  _ZNK11KActivities8Consumer14listActivitiesEv@Base 4.7.90
  _ZNK11KActivities8Consumer15currentActivityEv@Base 4.7.90
+ _ZNK11KActivities8Consumer26isResourceLinkedToActivityERK4QUrlRK7QString@Base 4:4.8.80
  _ZTIN11KActivities10ControllerE@Base 4.7.90
  _ZTIN11KActivities16ResourceInstanceE@Base 4.7.90
  _ZTIN11KActivities4InfoE@Base 4.7.90

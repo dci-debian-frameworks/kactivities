@@ -6,8 +6,11 @@ kactivities (4:4.8.80a-0ubuntu1) UNRELEASED; urgency=low
     - Update libkactivities-bin.install for changed files.
 
   [ Philip Muškovac ]
-  * Merge with debian git, remaining changes: 
+  * Merge with debian git, remaining changes:
     - keep symbol file
+
+  [ Felix Geyer ]
+  * Update symbol file.
 
  -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 24 May 2012 23:34:02 -0400
 
