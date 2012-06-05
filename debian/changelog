@@ -1,3 +1,9 @@
+kactivities (4:4.8.4-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jun 2012 17:40:28 +0200
+
 kactivities (4:4.8.3-1) experimental; urgency=low
 
   * Team upload.
