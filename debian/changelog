@@ -1,4 +1,4 @@
-kactivities (4:4.8.80a-0ubuntu1) UNRELEASED; urgency=low
+kactivities (4:4.8.80a-0ubuntu1) quantal; urgency=low
 
   [ Jonathan Thomas ]
   * New upstream beta release:
