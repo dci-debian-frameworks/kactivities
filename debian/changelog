@@ -1,15 +1,16 @@
-kactivities (4:4.8.4-0r2) UNRELEASED; urgency=low
+kactivities (4:4.8.4-1) unstable; urgency=low
 
   * New upstream release.
+  * Team upload.
 
   [ José Manuel Santamaría Lema ]
   * Add myself to Uploaders.
   * Add watch file.
-  
+
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jun 2012 17:40:28 +0200
+ -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 15:42:48 +0300
 
 kactivities (4:4.8.3-1) experimental; urgency=low
 
