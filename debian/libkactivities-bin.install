@@ -1,5 +1,4 @@
 usr/bin/kactivitymanagerd
-usr/lib/kde4/activitymanager_plugin_activityranking.so
 usr/lib/kde4/activitymanager_plugin_globalshortcuts.so
 usr/lib/kde4/activitymanager_plugin_slc.so
 usr/lib/kde4/activitymanager_plugin_sqlite.so
@@ -14,7 +13,6 @@ usr/share/kde4/apps/plasma/packages/org.kde.ActivityManager.UiHandler/contents/u
 usr/share/kde4/apps/plasma/packages/org.kde.ActivityManager.UiHandler/contents/ui/ChoiceDialog.qml
 usr/share/kde4/apps/plasma/packages/org.kde.ActivityManager.UiHandler/contents/ui/MessageDialog.qml
 usr/share/kde4/services/activities.protocol
-usr/share/kde4/services/activitymanager-plugin-activityranking.desktop
 usr/share/kde4/services/activitymanager-plugin-globalshortcuts.desktop
 usr/share/kde4/services/activitymanager-plugin-slc.desktop
 usr/share/kde4/services/activitymanager-plugin-sqlite.desktop
