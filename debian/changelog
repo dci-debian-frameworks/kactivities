@@ -5,6 +5,7 @@ kactivities (4:4.9.3-0r0) UNRELEASED; urgency=low
   [ Daniele E. Domenichelli ]
   * Update build dependencies.
   * Update installed files.
+  * Update symbols.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 18 Nov 2012 17:55:37 +0100
 
