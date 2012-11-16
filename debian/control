@@ -7,9 +7,11 @@ Uploaders: Eshat Cakar <info@eshat.de>,
  Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.8),
+ kdelibs5-dev (>= 4:4.9),
  libsoprano-dev,
- shared-desktop-ontologies (>= 0.8.1)
+ shared-desktop-ontologies (>= 0.8.1),
+ libx11-dev,
+ libqt4-opengl-dev
 Standards-Version: 3.9.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kactivities.git
