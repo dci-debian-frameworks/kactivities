@@ -32,7 +32,8 @@ Description: executables for the KDE Activities
 Package: libkactivities6
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libkactivities-bin (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: libkactivities-bin (= ${binary:Version})
 Description: Activities library
  This library provides functionality for managing activities.
  .

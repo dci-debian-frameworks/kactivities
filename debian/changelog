@@ -7,6 +7,13 @@ kactivities (4:4.9.3-0r0) UNRELEASED; urgency=low
   * Update installed files.
   * Update symbols.
 
+  [ José Manuel Santamaría Lema ]
+  * In order to avoid a circular dependency between libkactivities-bin and
+    libkactivities6 (this didn't happen in 4.8.x):
+    + libkactivities6.symbols adds a dependency on libkactivities-bin
+    + libkactivities6 recommends libkactivities-bin to avoid possible partial
+      upgrades problems.
+
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 18 Nov 2012 17:55:37 +0100
 
 kactivities (4:4.8.5-0r0) UNRELEASED; urgency=low
