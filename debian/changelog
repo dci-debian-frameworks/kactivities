@@ -1,8 +1,9 @@
 kactivities (4:4.9.80-0ubuntu1) UNRELEASED; urgency=low
 
   * New upstream beta release
+  * New upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 16 Nov 2012 15:18:55 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Nov 2012 15:43:30 +0000
 
 kactivities (4:4.9.3-0ubuntu1) raring; urgency=low
 
