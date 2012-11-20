@@ -1,9 +1,19 @@
 kactivities (4:4.9.80-0ubuntu1) UNRELEASED; urgency=low
 
-  * New upstream beta release
+  [ Jonathan Riddell ]
   * New upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Nov 2012 15:43:30 +0000
+  [ Scott Kitterman ]
+  * Add new libkactivities-models1 library package (debian/control, .install,
+    and .symbols)
+  * Add nepomuk-core-dev to build-depends
+  * Wildcard libkactivities6.install so that soversion changes don't cause
+    build failures
+  * Update libkactivities6.symbols
+  * Update libkactivities-dev.install for new files for libkactivies-models
+  * Add new files to libkactivities-bin.install, including Activities kcm
+
+ -- Scott Kitterman <scott@kitterman.com>  Tue, 20 Nov 2012 13:47:27 -0500
 
 kactivities (4:4.9.3-0ubuntu1) raring; urgency=low
 

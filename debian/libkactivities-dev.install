@@ -1,8 +1,15 @@
 usr/include/kactivities
 usr/include/KDE/KActivities
+usr/include/kactivities-models
 usr/lib/cmake/KActivities/KActivitiesConfig.cmake
 usr/lib/cmake/KActivities/KActivitiesConfigVersion.cmake
 usr/lib/cmake/KActivities/KActivitiesLibraryTargets.cmake
 usr/lib/cmake/KActivities/KActivitiesLibraryTargets-debian.cmake
+usr/lib/cmake/KActivities-Models/KActivities-ModelsConfig.cmake
+usr/lib/cmake/KActivities-Models/KActivities-ModelsConfigVersion.cmake
+usr/lib/cmake/KActivities-Models/KActivitiesModelsLibraryTargets-debian.cmake
+usr/lib/cmake/KActivities-Models/KActivitiesModelsLibraryTargets.cmake
 usr/lib/libkactivities.so
+usr/lib/libkactivities-models.so
 usr/lib/pkgconfig/libkactivities.pc
+usr/lib/pkgconfig/libkactivities-models.pc
