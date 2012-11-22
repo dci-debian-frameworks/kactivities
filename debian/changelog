@@ -1,3 +1,10 @@
+kactivities (4:4.9.80-0ubuntu2) raring; urgency=low
+
+  * Set minimum required version of nepomuk-core-dev to 4:4.9.80
+    - FTBFS with earlier versions
+
+ -- Scott Kitterman <scott@kitterman.com>  Wed, 21 Nov 2012 23:28:37 -0500
+
 kactivities (4:4.9.80-0ubuntu1) raring; urgency=low
 
   [ Jonathan Riddell ]
