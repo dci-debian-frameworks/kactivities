@@ -8,9 +8,9 @@ Build-Depends:
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  libx11-dev,
  libqt4-opengl-dev,
- kdelibs5-dev (>= 4:4.9.80),
+ kdelibs5-dev (>= 4:4.9.90),
  libsoprano-dev,
- nepomuk-core-dev (>= 4:4.9.80),
+ nepomuk-core-dev (>= 4:4.9.90),
  shared-desktop-ontologies (>= 0.8.1)
 Standards-Version: 3.9.3
 Homepage: http://www.kde.org/
