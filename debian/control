@@ -8,7 +8,7 @@ Build-Depends:
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  libx11-dev,
  libqt4-opengl-dev,
- kdelibs5-dev (>= 4:4.9.95),
+ kdelibs5-dev (>= 4:4.9.97),
  libsoprano-dev,
  nepomuk-core-dev (>= 4:4.9.95),
  shared-desktop-ontologies (>= 0.8.1)
