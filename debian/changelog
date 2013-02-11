@@ -15,6 +15,7 @@ kactivities (4:4.10.0-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.10.0.
+  * Build depend on nepomuk-core-dev >= 4:4.10.
   * In order to avoid a circular dependency between libkactivities-bin and
     libkactivities6 (this didn't happen in 4.8.x):
     + libkactivities6.symbols adds a dependency on libkactivities-bin (and added
