@@ -19,5 +19,5 @@ usr/share/kde4/services/activitymanager-plugin-sqlite.desktop
 usr/share/kde4/services/kactivitymanagerd.desktop
 usr/share/kde4/services/kactivitymanagerd_fileitem_linking_plugin.desktop
 usr/share/kde4/servicetypes/activitymanager-plugin.desktop
-usr/share/ontology/kde/kao.trig
 usr/share/ontology/kde/kao.ontology
+usr/share/ontology/kde/kao.trig
