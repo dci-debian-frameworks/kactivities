@@ -22,6 +22,8 @@ kactivities (4:4.10.0-0r0) UNRELEASED; urgency=low
       a lintian override for symbols-declares-dependency-on-other-package).
     + libkactivities6 recommends libkactivities-bin to avoid possible partial
       upgrades problems.
+  * Add libkactivities-models1 package.
+  * Update installed files.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 18 Nov 2012 17:55:37 +0100
 

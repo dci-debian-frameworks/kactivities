@@ -39,6 +39,15 @@ Description: Activities library
  .
  This package is part of the KDE Development Platform libraries module.
 
+Package: libkactivities-models1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Activities models library
+ This library provides functionality for KDE activities models.
+ .
+ This package is part of the KDE Development Platform libraries module.
+
 Package: libkactivities-dev
 Section: libdevel
 Architecture: any
