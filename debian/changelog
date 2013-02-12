@@ -24,6 +24,7 @@ kactivities (4:4.10.0-0r0) UNRELEASED; urgency=low
       upgrades problems.
   * Add libkactivities-models1 package.
   * Update installed files.
+  * Update symbols files.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 18 Nov 2012 17:55:37 +0100
 
