@@ -23,6 +23,7 @@ kactivities (4:4.10.0-0r0) UNRELEASED; urgency=low
     + libkactivities6 recommends libkactivities-bin to avoid possible partial
       upgrades problems.
   * Add libkactivities-models1 package.
+  * Use ${allLibraries} variables for libkactivities-dev and libkactivities-dbg depends.
   * Update installed files.
   * Update symbols files.
 
