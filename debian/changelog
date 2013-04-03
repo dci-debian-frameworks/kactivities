@@ -1,9 +1,12 @@
-kactivities (4:4.10.1-0r0) UNRELEASED; urgency=low
+kactivities (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add myself to Uploaders.
+
+  [ Sune Vuorela ]
+  * Add myself to uploaders
 
   [ Daniele E. Domenichelli ]
   * Update build dependencies:
@@ -30,7 +33,7 @@ kactivities (4:4.10.1-0r0) UNRELEASED; urgency=low
   * Update installed files.
   * Update symbols files.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 18 Nov 2012 17:55:37 +0100
+ -- Sune Vuorela <sune@debian.org>  Wed, 03 Apr 2013 06:19:29 +0000
 
 kactivities (4:4.8.4-1) unstable; urgency=low
 
