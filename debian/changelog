@@ -1,11 +1,11 @@
-kactivities (4:4.10.3-1) UNRELEASED; urgency=low
+kactivities (4:4.10.3-1) unstable; urgency=low
 
   * New upstream release.
   * Bump debhelper build-dep and compat to 9.
   * Bump Standards-Version to 3.9.4.
   * Update Uploaders list.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 10 May 2013 17:19:31 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 10 May 2013 21:44:32 +0200
 
 kactivities (4:4.10.2-1) experimental; urgency=low
 
