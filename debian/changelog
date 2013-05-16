@@ -1,3 +1,47 @@
+kactivities (4:4.10.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Merge with Debian
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 08 May 2013 16:08:38 +0000
+
+kactivities (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add myself to Uploaders.
+
+  [ Sune Vuorela ]
+  * Add myself to uploaders
+
+  [ Daniele E. Domenichelli ]
+  * Update build dependencies:
+    + Bump kdelibs5-dev to 4:4.10.
+    + Add libx11-dev.
+    + Add libqt4-opengl-dev.
+  * Update installed files.
+  * Update symbols.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.10.1.
+  * Build depend on nepomuk-core-dev >= 4:4.10.
+  * In order to avoid a circular dependency between libkactivities-bin and
+    libkactivities6 (this didn't happen in 4.8.x):
+    + libkactivities6.symbols adds a dependency on libkactivities-bin (and added
+      a lintian override for symbols-declares-dependency-on-other-package).
+    + libkactivities6 recommends libkactivities-bin to avoid possible partial
+      upgrades problems.
+  * Add libkactivities-models1 package.
+  * Use ${allLibraries} variables for libkactivities-dev and libkactivities-dbg
+    depends.
+  * Bump build dependency on pkg-kde-tools to 0.15.4~, because previous releases
+    wouldn't filter out libkactivities-dbg from ${allLibraries}.
+  * Update installed files.
+  * Update symbols files.
+
+ -- Sune Vuorela <sune@debian.org>  Wed, 03 Apr 2013 06:19:29 +0000
+
 kactivities (4:4.10.2-0ubuntu1) raring; urgency=low
 
   * New upstream bugfix release
@@ -110,6 +154,33 @@ kactivities (4:4.8.80a-0ubuntu1) quantal; urgency=low
   * Update symbol file.
 
  -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 24 May 2012 23:34:02 -0400
+
+kactivities (4:4.8.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Team upload.
+
+  [ José Manuel Santamaría Lema ]
+  * Add myself to Uploaders.
+  * Add watch file.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 15:42:48 +0300
+
+kactivities (4:4.8.3-1) experimental; urgency=low
+
+  * Team upload.
+
+  [ Eshat Cakar ]
+  * New upstream release, start from kubuntu packaging, thanks!
+  * Bump kdelibs5-dev depends to 4.8.
+
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.8.3.
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 26 May 2012 20:37:00 +0300
 
 kactivities (4:4.8.3-0ubuntu1) quantal; urgency=low
 

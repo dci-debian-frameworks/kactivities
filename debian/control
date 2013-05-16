@@ -3,19 +3,23 @@ Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Eshat Cakar <info@eshat.de>
-Build-Depends: 
- cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- libx11-dev,
- libqt4-opengl-dev,
- kdelibs5-dev (>= 4:4.10.2),
+Uploaders: Eshat Cakar <info@eshat.de>,
+ José Manuel Santamaría Lema <panfaust@gmail.com>,
+ Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+ Sune Vuorela <sune@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.1),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.15.4~),
+ kdelibs5-dev (>= 4:4.10), nepomuk-core-dev (>= 4:4.10),
  libsoprano-dev,
- nepomuk-core-dev (>= 4:4.10.2),
- shared-desktop-ontologies (>= 0.8.1)
+ shared-desktop-ontologies (>= 0.8.1),
+ libx11-dev,
+ libqt4-opengl-dev
 Standards-Version: 3.9.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kactivities
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kactivities
+X-Vcs-Debian-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kactivities.git
+X-Vcs-Debian-Git: git://git.debian.org/pkg-kde/kde-sc/kactivities.git
 
 Package: libkactivities-bin
 Architecture: any
@@ -32,7 +36,8 @@ Description: executables for the KDE Activities
 Package: libkactivities6
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libkactivities-bin (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: libkactivities-bin (= ${binary:Version})
 Description: Activities library
  This library provides functionality for managing activities.
  .
@@ -41,16 +46,16 @@ Description: Activities library
 Package: libkactivities-models1
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libkactivities-bin (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Activities models library
- This library provides functionality for KDE activity models.
+ This library provides functionality for KDE activities models.
  .
  This package is part of the KDE Development Platform libraries module.
 
 Package: libkactivities-dev
 Section: libdevel
 Architecture: any
-Depends: libkactivities6 (= ${binary:Version}), ${misc:Depends},
+Depends: ${allLibraries}, ${misc:Depends},
  ${sameVersionDep:kdelibs5-dev:libkactivities6}
 Description: development files for the KDE Activities libraries
  This package contains the development files for developing with the
@@ -62,7 +67,7 @@ Package: libkactivities-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, libkactivities6 (= ${binary:Version})
+Depends: ${allLibraries}, ${misc:Depends}
 Breaks: kde-runtime-dbg (<< 4:4.8), kdebase-runtime-dbg (<< 4:4.8)
 Replaces: kde-runtime-dbg (<< 4:4.8), kdebase-runtime-dbg (<< 4:4.8)
 Suggests: libkactivities-bin (= ${binary:Version})
