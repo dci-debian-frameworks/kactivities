@@ -4,7 +4,6 @@ usr/lib/kde4/activitymanager_plugin_globalshortcuts.so
 usr/lib/kde4/activitymanager_plugin_slc.so
 usr/lib/kde4/activitymanager_plugin_sqlite.so
 usr/lib/kde4/activitymanager_plugin_virtualdesktopswitch.so
-usr/lib/kde4/activitymanager_uihandler_declarative.so
 usr/lib/kde4/activitymanager_uihandler_kdialog.so
 usr/lib/kde4/imports/org/kde/activities/models/libkactivities-models-component-plugin.so
 usr/lib/kde4/imports/org/kde/activities/models/qmldir
