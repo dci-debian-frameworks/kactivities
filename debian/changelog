@@ -5,6 +5,7 @@ kactivities (4:4.10.80-0ubuntu1) UNRELEASED; urgency=low
 
   [ Howard Chan ]
   * Fix the symbols files
+  * Update libkactivities-bin.install
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 13 Jun 2013 09:04:26 +0100
 
