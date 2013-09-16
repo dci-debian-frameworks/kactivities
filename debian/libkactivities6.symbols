@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.0 amd64
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libkactivities.so.6 libkactivities6 #MINVER#
 | libkactivities6 #MINVER#, libkactivities-bin
 * Build-Depends-Package: libkactivities-dev
@@ -18,6 +18,10 @@ libkactivities.so.6 libkactivities6 #MINVER#
  _ZN11KActivities10ControllerD0Ev@Base 4:4.8.1
  _ZN11KActivities10ControllerD1Ev@Base 4:4.8.1
  _ZN11KActivities10ControllerD2Ev@Base 4:4.8.1
+ _ZN11KActivities12versionMajorEv@Base 4:4.11.1
+ _ZN11KActivities12versionMinorEv@Base 4:4.11.1
+ _ZN11KActivities13versionStringEv@Base 4:4.11.1
+ _ZN11KActivities14versionReleaseEv@Base 4:4.11.1
  _ZN11KActivities16ResourceInstance11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.8.1
  _ZN11KActivities16ResourceInstance11qt_metacastEPKc@Base 4:4.8.1
  _ZN11KActivities16ResourceInstance11setMimetypeERK7QString@Base 4:4.8.1
@@ -46,6 +50,7 @@ libkactivities.so.6 libkactivities6 #MINVER#
  _ZN11KActivities4Info12linkResourceERK4KUrl@Base 4:4.9.3
  _ZN11KActivities4Info12stateChangedENS0_5StateE@Base 4:4.8.1
  _ZN11KActivities4Info14unlinkResourceERK4KUrl@Base 4:4.9.3
+ _ZN11KActivities4Info16isResourceLinkedERK4KUrl@Base 4:4.11.1
  _ZN11KActivities4Info16staticMetaObjectE@Base 4:4.8.1
  _ZN11KActivities4Info4nameERK7QString@Base 4:4.8.1
  _ZN11KActivities4Info5addedEv@Base 4:4.8.1
@@ -57,6 +62,7 @@ libkactivities.so.6 libkactivities6 #MINVER#
  _ZN11KActivities4InfoD0Ev@Base 4:4.8.1
  _ZN11KActivities4InfoD1Ev@Base 4:4.8.1
  _ZN11KActivities4InfoD2Ev@Base 4:4.8.1
+ _ZN11KActivities7versionEv@Base 4:4.11.1
  _ZN11KActivities8Consumer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.8.1
  _ZN11KActivities8Consumer11qt_metacastEPKc@Base 4:4.8.1
  _ZN11KActivities8Consumer13activityAddedERK7QString@Base 4:4.8.1
