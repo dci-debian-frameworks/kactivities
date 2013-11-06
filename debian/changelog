@@ -1,3 +1,9 @@
+kactivities (4:4.11.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 06 Nov 2013 12:23:17 +0100
+
 kactivities (4:4.11.2-2) experimental; urgency=low
 
   * Bump kdelibs5-dev build-dependency version.
