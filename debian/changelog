@@ -1,6 +1,7 @@
 kactivities (4:4.11.5-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Add autopkgtest.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 10 Jan 2014 12:42:42 -0300
 
