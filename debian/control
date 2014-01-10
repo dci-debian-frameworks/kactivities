@@ -13,7 +13,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  shared-desktop-ontologies (>= 0.8.1),
  libx11-dev,
  libqt4-opengl-dev
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kactivities.git
