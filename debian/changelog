@@ -3,6 +3,7 @@ kactivities (4:4.11.5-1) UNRELEASED; urgency=low
   * New upstream release.
   * Add autopkgtest.
   * Bump Standards-Version to 3.9.5, no changes needed.
+  * Add abi-compliance-checker info.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 10 Jan 2014 12:42:42 -0300
 
