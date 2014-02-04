@@ -3,16 +3,19 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
- Sune Vuorela <sune@debian.org>,
- Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.15.4~),
- kdelibs5-dev (>= 4:4.11), nepomuk-core-dev (>= 4:4.11),
- libsoprano-dev,
- shared-desktop-ontologies (>= 0.8.1),
- libx11-dev,
- libqt4-opengl-dev
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Sune Vuorela <sune@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libqt4-opengl-dev,
+               libsoprano-dev,
+               libx11-dev,
+               nepomuk-core-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.15.4~),
+               shared-desktop-ontologies (>= 0.8.1)
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
@@ -21,11 +24,15 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kactivities.git
 
 Package: libkactivities-bin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: kde-runtime (<< 4:4.8), kde-runtime-data (<< 4:4.8),
- kdebase-runtime (<< 4:4.8), kdebase-runtime-data (<< 4:4.8)
-Replaces: kde-runtime (<< 4:4.8), kde-runtime-data (<< 4:4.8),
- kdebase-runtime (<< 4:4.8), kdebase-runtime-data (<< 4:4.8)
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kde-runtime (<< 4:4.8),
+        kde-runtime-data (<< 4:4.8),
+        kdebase-runtime (<< 4:4.8),
+        kdebase-runtime-data (<< 4:4.8)
+Replaces: kde-runtime (<< 4:4.8),
+          kde-runtime-data (<< 4:4.8),
+          kdebase-runtime (<< 4:4.8),
+          kdebase-runtime-data (<< 4:4.8)
 Description: executables for the KDE Activities
  This package contains binary files shipped with the KDE Activities library.
  .
@@ -34,7 +41,7 @@ Description: executables for the KDE Activities
 Package: libkactivities6
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: libkactivities-bin (= ${binary:Version})
 Description: Activities library
  This library provides functionality for managing activities.
@@ -44,7 +51,7 @@ Description: Activities library
 Package: libkactivities-models1
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Activities models library
  This library provides functionality for KDE activities models.
  .
@@ -53,8 +60,9 @@ Description: Activities models library
 Package: libkactivities-dev
 Section: libdevel
 Architecture: any
-Depends: ${allLibraries}, ${misc:Depends},
- ${sameVersionDep:kdelibs5-dev:libkactivities6}
+Depends: ${allLibraries},
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:libkactivities6}
 Description: development files for the KDE Activities libraries
  This package contains the development files for developing with the
  kactivities library.
