@@ -4,7 +4,11 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.10), qtbase5-dev, qtdeclarative5-dev
+ extra-cmake-modules (>= 0.0.10), qtbase5-dev, qtdeclarative5-dev,
+ libkf5config-dev (>= 4.96.0), libkf5dbusaddons-dev (>= 4.96.0),
+ libkf5i18n-dev (>= 4.96.0), libkf5windowsystem-dev (>= 4.96.0), 
+ libkf5coreaddons-dev (>= 4.96.0), libkf5service-dev (>= 4.96.0),
+ libkf5kjs-dev (>= 4.96.0), libboost-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdelibs/kactivities
 
@@ -21,7 +25,6 @@ Description: development files for kconfigwidgets
  
 Package: libkf5activities4
 Architecture: any
-Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Extra widgets for easier configuration support.
@@ -31,7 +34,6 @@ Description: Extra widgets for easier configuration support.
 
 Package: kactivities
 Architecture: any
-Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libkactivities-bin
@@ -44,7 +46,6 @@ Package: libkf5activities4-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Multi-Arch: same
 Depends: libkf5activities4 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kactivities
  KConfigWidgets provides easy-to-use classes to create 
