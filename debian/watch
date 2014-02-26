@@ -1,2 +1,2 @@
 version=3
-http://download.kde.org/unstable/frameworks/([\d\.]*)/kactivities-kf5-(.*)\.tar\.xz
+http://download.kde.org/unstable/frameworks/([\d\.]*)/kactivities-(.*)\.tar\.xz
