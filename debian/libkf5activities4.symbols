@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.96.0 amd64 i386
 libKF5Activities.so.4 libkf5activities4 #MINVER#
  _ZN11KActivities10Controller11addActivityERK7QString@Base 4.96.0
  _ZN11KActivities10Controller11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -30,12 +30,12 @@ libKF5Activities.so.4 libkf5activities4 #MINVER#
  _ZN11KActivities16ResourceInstance16staticMetaObjectE@Base 4.96.0
  _ZN11KActivities16ResourceInstance6setUriERK4QUrl@Base 4.96.0
  _ZN11KActivities16ResourceInstance8setTitleERK7QString@Base 4.96.0
- _ZN11KActivities16ResourceInstanceC1Ey4QUrlRK7QStringS4_S4_P7QObject@Base 4.96.0
- _ZN11KActivities16ResourceInstanceC1EyP7QObject@Base 4.96.0
- _ZN11KActivities16ResourceInstanceC1EyRK7QStringP7QObject@Base 4.96.0
- _ZN11KActivities16ResourceInstanceC2Ey4QUrlRK7QStringS4_S4_P7QObject@Base 4.96.0
- _ZN11KActivities16ResourceInstanceC2EyP7QObject@Base 4.96.0
- _ZN11KActivities16ResourceInstanceC2EyRK7QStringP7QObject@Base 4.96.0
+ (subst)_ZN11KActivities16ResourceInstanceC1E{quintptr}4QUrlRK7QStringS4_S4_P7QObject@Base 4.96.0
+ (subst)_ZN11KActivities16ResourceInstanceC1E{quintptr}P7QObject@Base 4.96.0
+ (subst)_ZN11KActivities16ResourceInstanceC1E{quintptr}RK7QStringP7QObject@Base 4.96.0
+ (subst)_ZN11KActivities16ResourceInstanceC2E{quintptr}4QUrlRK7QStringS4_S4_P7QObject@Base 4.96.0
+ (subst)_ZN11KActivities16ResourceInstanceC2E{quintptr}P7QObject@Base 4.96.0
+ (subst)_ZN11KActivities16ResourceInstanceC2E{quintptr}RK7QStringP7QObject@Base 4.96.0
  _ZN11KActivities16ResourceInstanceD0Ev@Base 4.96.0
  _ZN11KActivities16ResourceInstanceD1Ev@Base 4.96.0
  _ZN11KActivities16ResourceInstanceD2Ev@Base 4.96.0
