@@ -15,13 +15,13 @@ Homepage: https://projects.kde.org/projects/kde/kdelibs/kactivities
 Package: libkf5activities-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5activities4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5activities5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for kactivities.
  This library provides functionality for managing Activities.
  .
  Contains development files for kactivities.
  
-Package: libkf5activities4
+Package: libkf5activities5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -36,11 +36,11 @@ Conflicts: libkactivities-bin
 Description: Runtime to organize the user work in separate activities.
  This library provides functionality for managing Activities.
 
-Package: libkf5activities4-dbg
+Package: libkf5activities5-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Depends: libkf5activities4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5activities5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kactivities
  This library provides functionality for managing Activities.
  .
