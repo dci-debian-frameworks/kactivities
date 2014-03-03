@@ -1,12 +1,9 @@
-kactivities-kf5 (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
+kactivities-kf5 (4.96.0-0ubuntu1) trusty; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial package
 
   [ Scarlett Clark ]
-  * Patch find_package so it would build. 
-
-  [ Jonathan Riddell ]
-  * New upstream alpha release
+  * Patch find_package so it would build.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 11:35:13 +0000
