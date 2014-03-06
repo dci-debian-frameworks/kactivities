@@ -6,5 +6,3 @@ usr/lib/*/qt5/plugins/kf5/activitymanager/activitymanager_plugin_slc.so
 usr/lib/*/qt5/plugins/kf5/activitymanager/activitymanager_plugin_sqlite.so
 usr/share/kde5/services/kactivitymanagerd.desktop
 usr/share/kde5/servicetypes/activitymanager-plugin.desktop
-usr/share/ontology/kde/kao.ontology
-usr/share/ontology/kde/kao.trig
