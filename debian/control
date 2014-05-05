@@ -4,11 +4,11 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.11), qtbase5-dev, qtdeclarative5-dev,
- libkf5config-dev (>= 4.98.0), libkf5dbusaddons-dev (>= 4.98.0),
- libkf5i18n-dev (>= 4.98.0), libkf5windowsystem-dev (>= 4.98.0), 
- libkf5coreaddons-dev (>= 4.98.0), libkf5service-dev (>= 4.98.0),
- libkf5kjs-dev (>= 4.98.0), libboost-dev
+ extra-cmake-modules (>= 0.0.13), qtbase5-dev, qtdeclarative5-dev,
+ libkf5config-dev (>= 4.99.0), libkf5dbusaddons-dev (>= 4.99.0),
+ libkf5i18n-dev (>= 4.99.0), libkf5windowsystem-dev (>= 4.99.0), 
+ libkf5coreaddons-dev (>= 4.99.0), libkf5service-dev (>= 4.99.0),
+ libkf5kjs-dev (>= 4.99.0), libboost-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdelibs/kactivities
 
