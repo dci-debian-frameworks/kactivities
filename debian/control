@@ -3,35 +3,35 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev, qtdeclarative5-dev,
- libkf5config-dev (>= 4.99.0), libkf5dbusaddons-dev (>= 4.99.0),
- libkf5i18n-dev (>= 4.99.0), libkf5windowsystem-dev (>= 4.99.0), 
- libkf5coreaddons-dev (>= 4.99.0), libkf5service-dev (>= 4.99.0),
- libkf5kjs-dev (>= 4.99.0), libboost-dev
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.13),
+               libboost-dev,
+               libkf5config-dev (>= 4.99.0),
+               libkf5coreaddons-dev (>= 4.99.0),
+               libkf5dbusaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>= 4.99.0),
+               libkf5kjs-dev (>= 4.99.0),
+               libkf5service-dev (>= 4.99.0),
+               libkf5windowsystem-dev (>= 4.99.0),
+               pkg-kde-tools,
+               qtbase5-dev,
+               qtdeclarative5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdelibs/kactivities
 
-Package: libkf5activities-dev
+Package: libkf5activities5
 Section: libdevel
 Architecture: any
-Depends: libkf5activities5 (= ${binary:Version}), ${misc:Depends}
-Description: development files for kactivities.
- This library provides functionality for managing Activities.
- .
- Contains development files for kactivities.
- 
-Package: libkf5activities5
-Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Library to organize the user work in separate activities.
  This library provides functionality for managing Activities.
+Pre-Depends: ${misc:Pre-Depends}
 
 Package: kactivities
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Conflicts: libkactivities-bin
 Description: Runtime to organize the user work in separate activities.
  This library provides functionality for managing Activities.
