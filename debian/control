@@ -20,6 +20,15 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdelibs/kactivities
 
+Package: libkf5activities-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5activities5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kactivities.
+ This library provides functionality for managing Activities.
+ .
+ Contains development files for kactivities.
+
 Package: libkf5activities5
 Section: libdevel
 Architecture: any
