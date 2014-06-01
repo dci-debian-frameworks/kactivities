@@ -2,6 +2,7 @@ kactivities-kf5 (4.99.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Re-add missing -dev package after a faulty wrap-and-sort. 
   * Install *.pri files in arch dependent path.
+  * Update kactivities.install paths.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 02 Jun 2014 00:42:36 +0200
 
