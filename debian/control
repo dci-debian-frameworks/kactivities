@@ -23,7 +23,8 @@ Homepage: https://projects.kde.org/projects/kde/kdelibs/kactivities
 Package: libkf5activities-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5activities5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5activities5 (= ${binary:Version}), ${misc:Depends},
+ qtbase5-dev
 Description: development files for kactivities.
  This library provides functionality for managing Activities.
  .
