@@ -5,15 +5,15 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.13),
+               extra-cmake-modules (>= 0.0.14),
                libboost-dev,
-               libkf5config-dev (>= 4.99.0),
-               libkf5coreaddons-dev (>= 4.99.0),
-               libkf5dbusaddons-dev (>= 4.99.0),
-               libkf5i18n-dev (>= 4.99.0),
-               libkf5kjs-dev (>= 4.99.0),
-               libkf5service-dev (>= 4.99.0),
-               libkf5windowsystem-dev (>= 4.99.0),
+               libkf5config-dev (>= 4.100.0),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5dbusaddons-dev (>= 4.100.0),
+               libkf5i18n-dev (>= 4.100.0),
+               libkf5kjs-dev (>= 4.100.0),
+               libkf5service-dev (>= 4.100.0),
+               libkf5windowsystem-dev (>= 4.100.0),
                pkg-kde-tools,
                qtbase5-dev,
                qtdeclarative5-dev
@@ -23,8 +23,7 @@ Homepage: https://projects.kde.org/projects/kde/kdelibs/kactivities
 Package: libkf5activities-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5activities5 (= ${binary:Version}), ${misc:Depends},
- qtbase5-dev
+Depends: libkf5activities5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: development files for kactivities.
  This library provides functionality for managing Activities.
  .

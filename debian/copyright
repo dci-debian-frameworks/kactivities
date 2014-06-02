@@ -3,7 +3,7 @@ Upstream-Name: kactivities
 Source: https://projects.kde.org/projects/frameworks/kactivities
 
 Files: *
-       debian/*  
+       debian/*
 Copyright: © 2010-2013 Ivan Cukic <ivan.cukic@kde.org>
            © 2012 Makis Marimpis <makhsm@gmail.com>
            © 2008 Aaron Seigo <aseigo@kde.org>
@@ -35,7 +35,7 @@ Files: src/lib/core/consumer.cpp
        src/lib/core/info.cpp
        src/lib/core/info.h
        src/lib/core/info_p.h
-Copyright: 2010, 2011, 2012, 2013 Ivan Cukic <ivan.cukic(at)kde.org> 
+Copyright: 2010, 2011, 2012, 2013 Ivan Cukic <ivan.cukic(at)kde.org>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -52,8 +52,8 @@ License: LGPL-2
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".    
-  
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
 Files: src/imports/activitiesextensionplugin.cpp
        src/imports/activitiesextensionplugin.h
        src/lib/core/manager_p.cpp
@@ -66,10 +66,10 @@ Files: src/imports/activitiesextensionplugin.cpp
        src/lib/models/kactivities_models_export.h
        src/utils/* excluding:
        -+ src/utils/qsqlquery.cpp
-       -+ src/utils/qsqlquery.h     
+       -+ src/utils/qsqlquery.h
 Copyright: 2010, 2011, 2012 Ivan Cukic <ivan.cukic(at)kde.org>
            2008 by Aaron Seigo <aseigo@kde.org>
-            2012 Patrick von Reth <patrick.vonreth@gmail.com> 
+            2012 Patrick von Reth <patrick.vonreth@gmail.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public

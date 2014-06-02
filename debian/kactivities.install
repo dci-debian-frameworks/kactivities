@@ -1,8 +1,8 @@
 usr/bin/kactivitymanagerd
-usr/lib/*/qt5/qml/org/kde/activities/libkactivitiesextensionplugin.so
-usr/lib/*/qt5/qml/org/kde/activities/qmldir
 usr/lib/*/qt5/plugins/kactivitymanagerd/kactivitymanagerd_plugin_activitytemplates.so
 usr/lib/*/qt5/plugins/kactivitymanagerd/kactivitymanagerd_plugin_slc.so
 usr/lib/*/qt5/plugins/kactivitymanagerd/kactivitymanagerd_plugin_sqlite.so
+usr/lib/*/qt5/qml/org/kde/activities/libkactivitiesextensionplugin.so
+usr/lib/*/qt5/qml/org/kde/activities/qmldir
 usr/share/kservices5/kactivitymanagerd.desktop
 usr/share/kservicetypes5/kactivitymanagerd-plugin.desktop
