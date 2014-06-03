@@ -1,3 +1,15 @@
+kactivities (4:4.13.1-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Merge with debian, no remaining changes
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 03 Jun 2014 17:10:52 +0200
+
+kactivities (4:4.13.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 May 2014 11:15:58 +0200
+
 kactivities (4:4.13.0-0ubuntu1) trusty; urgency=medium
 
   * New upstream KDE Software Compilation release
@@ -22,11 +34,31 @@ kactivities (4:4.12.90-0ubuntu1) trusty; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:35:47 +0000
 
+kactivities (4:4.12.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:25:40 +0200
+
+kactivities (4:4.12.3-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:06:48 +0100
+
 kactivities (4:4.12.3-0ubuntu1) trusty; urgency=medium
 
   * New upstream bugfix release
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:28:24 +0100
+
+kactivities (4:4.12.2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update acc files.
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:38 +0100
 
 kactivities (4:4.12.2-0ubuntu1) trusty; urgency=medium
 
@@ -63,6 +95,36 @@ kactivities (4:4.11.80-0ubuntu1) trusty; urgency=low
   * New upstream beta release
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:26:57 +0100
+
+kactivities (4:4.11.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add autopkgtest.
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * Add abi-compliance-checker info.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 15 Jan 2014 21:30:13 -0300
+
+kactivities (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 06 Nov 2013 16:33:55 +0100
+
+kactivities (4:4.11.2-2) experimental; urgency=low
+
+  * Bump kdelibs5-dev build-dependency version.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Oct 2013 17:11:50 +0200
+
+kactivities (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update install files.
+  * Update symbols file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Oct 2013 20:32:23 +0200
 
 kactivities (4:4.11.2-0ubuntu1) saucy; urgency=low
 
@@ -122,6 +184,22 @@ kactivities (4:4.10.80-0ubuntu1) saucy; urgency=low
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 00:46:20 +0100
+
+kactivities (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 11 Jul 2013 17:17:42 +0200
+
+kactivities (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Bump debhelper build-dep and compat to 9.
+  * Bump Standards-Version to 3.9.4.
+  * Update Uploaders list.
+  * Update vcs fields.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 13 Jun 2013 23:00:03 +0200
 
 kactivities (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
 

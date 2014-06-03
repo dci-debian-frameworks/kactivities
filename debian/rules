@@ -4,8 +4,6 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 libpkgs_addsubst_allLibraries = libkactivities-dev libkactivities-dbg
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
-.PHONY: override_dh_auto_test
-
 override_dh_shlibdeps:
 	$(overridden_command) $(foreach p,$(shell dh_listpackages | grep ^lib),-p$p) -- -xkde-runtime
 	$(overridden_command) --remaining-packages
