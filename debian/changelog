@@ -5,7 +5,10 @@ kactivities-kf5 (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
+
+  [ José Manuel Santamaría Lema ]
+  * Add kf5-kio-dev build depend.
+  * Update symbols file.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:33:09 +0100
 
