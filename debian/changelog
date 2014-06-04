@@ -10,6 +10,11 @@ kactivities-kf5 (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Add kf5-kio-dev build depend.
   * Update symbols file.
 
+  [ Harald Sitter ]
+  * Wildcard qml plugin installation in kactvities.install
+  * Add localization files to kactivities.install. The library has none at
+    the time of writing.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:33:09 +0100
 
 kactivities-kf5 (4.99.0-0ubuntu1) trusty; urgency=medium
