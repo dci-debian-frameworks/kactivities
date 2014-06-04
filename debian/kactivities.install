@@ -5,4 +5,4 @@ usr/lib/*/qt5/plugins/kactivitymanagerd/kactivitymanagerd_plugin_sqlite.so
 usr/lib/*/qt5/qml/org/kde/activities/*
 usr/share/kservices5/kactivitymanagerd.desktop
 usr/share/kservicetypes5/kactivitymanagerd-plugin.desktop
-usr/share/locale/*/kactivities5.mo
+usr/share/locale/*/LC_MESSAGES/kactivities5.mo
