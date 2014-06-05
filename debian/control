@@ -37,11 +37,9 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
 Description: Library to organize the user work in separate activities.
  This library provides functionality for managing Activities.
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: kactivities
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Conflicts: libkactivities-bin
 Description: Runtime to organize the user work in separate activities.
