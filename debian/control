@@ -31,7 +31,6 @@ Description: development files for kactivities.
  Contains development files for kactivities.
 
 Package: libkf5activities5
-Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
