@@ -1,8 +1,12 @@
-kactivities (4:4.13.1-1ubuntu1) UNRELEASED; urgency=medium
+kactivities (4:4.13.2-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Rohan Garg ]
   * Merge with debian, no remaining changes
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 03 Jun 2014 17:10:52 +0200
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 11:42:14 +0100
 
 kactivities (4:4.13.1-1) unstable; urgency=medium
 
