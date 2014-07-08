@@ -8,18 +8,20 @@ Build-Depends: cmake,
                extra-cmake-modules (>= 0.0.14),
                libboost-dev,
                kio-dev (>= 5.0.0),
-               libkf5config-dev (>= 4.100.0),
-               libkf5coreaddons-dev (>= 4.100.0),
-               libkf5dbusaddons-dev (>= 4.100.0),
-               libkf5i18n-dev (>= 4.100.0),
+               libkf5config-dev (>= 5.0.0),
+               libkf5coreaddons-dev (>= 5.0.0),
+               libkf5dbusaddons-dev (>= 5.0.0),
+               libkf5i18n-dev (>= 5.0.0),
                libkf5kjs-dev (>= 5.0.0),
-               libkf5service-dev (>= 4.100.0),
-               libkf5windowsystem-dev (>= 4.100.0),
+               libkf5service-dev (>= 5.0.0),
+               libkf5windowsystem-dev (>= 5.0.0),
                pkg-kde-tools,
                qtbase5-dev,
                qtdeclarative5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdelibs/kactivities
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kactivities
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kactivities
 
 Package: libkf5activities-dev
 Section: libdevel
