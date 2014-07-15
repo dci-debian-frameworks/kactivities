@@ -1,5 +1,5 @@
-kactivities-kf5 (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+kactivities-kf5 (5.0.0-0ubuntu1) utopic; urgency=medium
 
   * Initial stable upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 11:35:13 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 15 Jul 2014 10:24:26 +0200
