@@ -4,10 +4,10 @@ Source: https://projects.kde.org/projects/frameworks/kactivities
 
 Files: *
        debian/*
-Copyright: © 2010-2013 Ivan Cukic <ivan.cukic@kde.org>
-           © 2012 Makis Marimpis <makhsm@gmail.com>
-           © 2008 Aaron Seigo <aseigo@kde.org>
-           © 2012 Patrick von Reth <patrick.vonreth@gmail.com>
+Copyright: 2010-2013 Ivan Cukic <ivan.cukic@kde.org>
+           2012 Makis Marimpis <makhsm@gmail.com>
+           2008 Aaron Seigo <aseigo@kde.org>
+           2012 Patrick von Reth <patrick.vonreth@gmail.com>
            2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
@@ -65,8 +65,6 @@ Files: src/imports/activitiesextensionplugin.cpp
        src/lib/models/activitiescomponentplugin.h
        src/lib/models/kactivities_models_export.h
        src/utils/* excluding:
-       -+ src/utils/qsqlquery.cpp
-       -+ src/utils/qsqlquery.h
 Copyright: 2010, 2011, 2012 Ivan Cukic <ivan.cukic(at)kde.org>
            2008 by Aaron Seigo <aseigo@kde.org>
             2012 Patrick von Reth <patrick.vonreth@gmail.com>
