@@ -1,3 +1,9 @@
+kactivities-kf5 (5.0.0-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Update extra-cmake-modules depend version 
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 18 Jul 2014 07:24:35 -0700
+
 kactivities-kf5 (5.0.0-0ubuntu1) utopic; urgency=medium
 
   * Initial stable upstream release
