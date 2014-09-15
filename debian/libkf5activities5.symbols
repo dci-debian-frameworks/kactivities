@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64
-libKF5Activities.so.5 libkf5activities5 #MINVER#
+# SymbolsHelper-Confirmed: 5.2.0 amd64
+libKF5Activities.so.5 libkf5activities5 #MINVER#, qml-module-org-kde-extensionplugin
  _ZN11KActivities10Controller11addActivityERK7QString@Base 4.96.0
  _ZN11KActivities10Controller11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN11KActivities10Controller11qt_metacastEPKc@Base 4.96.0
@@ -90,9 +90,6 @@ libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZNK11KActivities8Consumer15currentActivityEv@Base 4.96.0
  (optional=templinst)_ZNKSt8functionIFvvEEclEv@Base 4.97.0
  (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4.98.0
- (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EED0Ev@Base 4.98.0
- (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EED1Ev@Base 4.98.0
- (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EED2Ev@Base 4.98.0
  _ZTIN11KActivities10ControllerE@Base 4.96.0
  _ZTIN11KActivities16ResourceInstanceE@Base 4.96.0
  _ZTIN11KActivities4InfoE@Base 4.96.0

@@ -11,7 +11,9 @@ Build-Depends: cmake,
                libkf5config-dev (>= 5.2.0),
                libkf5coreaddons-dev (>= 5.2.0),
                libkf5dbusaddons-dev (>= 5.2.0),
+               libkf5declarative-dev (>= 5.2.0),
                libkf5i18n-dev (>= 5.2.0),
+               libkf5kcmutils-dev (>= 5.2.0),
                libkf5kjs-dev (>= 5.2.0),
                libkf5service-dev (>= 5.2.0),
                libkf5windowsystem-dev (>= 5.2.0),
@@ -55,3 +57,15 @@ Description: debug symbols for kactivities
  This library provides functionality for managing Activities.
  .
  Contains debug symbols for kactivities.
+ 
+Package: qml-module-org-kde-extensionplugin
+Architecture: any
+Multi-arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5activities5 (>= ${source:Version})
+Breaks: libkf5activities5 (<< 5.1.0-0ubuntu1)
+Replaces: libkf5activities5 (<< 5.1.0-0ubuntu1)
+Description: provides integration of QML and KDE Frameworks - extensionplugin
+ This import contains KDE extras that are visually similar to Qt Quick
+ Controls.
+ .
+ This package contains the QML files used by libkf5declarative.
