@@ -9,7 +9,7 @@ kactivities-kf5 (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
   * Added missing files to install file. 
   * Batchpatch symbols - removed 3 MISSING 
      - std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::~_Sp_counted_base()
-
+  * Revert to original install paths. Upstream Review:120229
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:18:05 +0000
 
