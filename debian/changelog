@@ -1,4 +1,4 @@
-kactivities-kf5 (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
+kactivities-kf5 (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -11,7 +11,7 @@ kactivities-kf5 (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
      - std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::~_Sp_counted_base()
   * Revert to original install paths. Upstream Review:120229
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:18:05 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 20:02:55 +0200
 
 kactivities-kf5 (5.1.0-0ubuntu1) utopic; urgency=medium
 
