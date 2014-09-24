@@ -22,8 +22,8 @@ Build-Depends: cmake,
                qtdeclarative5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdelibs/kactivities
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kactivities
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kactivities
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kactivities.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kactivities.git
 
 Package: libkf5activities-dev
 Section: libdevel
