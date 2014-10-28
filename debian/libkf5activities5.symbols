@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 5.2.0 amd64
-libKF5Activities.so.5 libkf5activities5 #MINVER#, qml-module-org-kde-extensionplugin
+libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZN11KActivities10Controller11addActivityERK7QString@Base 4.96.0
  _ZN11KActivities10Controller11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN11KActivities10Controller11qt_metacastEPKc@Base 4.96.0
