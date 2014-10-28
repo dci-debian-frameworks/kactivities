@@ -61,7 +61,9 @@ Description: debug symbols for kactivities
 Package: qml-module-org-kde-extensionplugin
 Architecture: any
 Multi-arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}, libkf5activities5 (>= ${source:Version})
+Depends: libkf5activities5 (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: libkf5activities5 (<< 5.1.0-0ubuntu1)
 Replaces: libkf5activities5 (<< 5.1.0-0ubuntu1)
 Description: provides integration of QML and KDE Frameworks - extensionplugin
