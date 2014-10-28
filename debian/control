@@ -57,7 +57,7 @@ Description: debug symbols for kactivities
  This library provides functionality for managing Activities.
  .
  Contains debug symbols for kactivities.
- 
+
 Package: qml-module-org-kde-extensionplugin
 Architecture: any
 Multi-arch: same
