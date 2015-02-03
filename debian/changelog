@@ -34,10 +34,10 @@ kactivities-kf5 (5.2.0-0ubuntu1) utopic; urgency=medium
   * New upstream release
 
   [ Scarlett Clark ]
-  * Split out qml to its own package. 
+  * Split out qml to its own package.
   * Added missing dependencies.
-  * Added missing files to install file. 
-  * Batchpatch symbols - removed 3 MISSING 
+  * Added missing files to install file.
+  * Batchpatch symbols - removed 3 MISSING
      - std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::~_Sp_counted_base()
   * Revert to original install paths. Upstream Review:120229
 
@@ -46,7 +46,7 @@ kactivities-kf5 (5.2.0-0ubuntu1) utopic; urgency=medium
 kactivities-kf5 (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
-  * Update extra-cmake-modules depend version 
+  * Update extra-cmake-modules depend version
 
   [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
