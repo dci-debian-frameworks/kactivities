@@ -4,7 +4,7 @@ Source: https://projects.kde.org/projects/frameworks/kactivities
 
 Files: *
 Copyright: 2013, Heena Mahour <heena393@gmail.com>
-           2011-2014, Ivan Cukic <ivan.cukic(at)kde.org>
+           2010-2015, Ivan Cukic <ivan.cukic(at)kde.org>
            2012, Makis Marimpis <makhsm@gmail.com>
            2013, Sebastian Kügler <sebas@kde.org>
 License: GPL-2+
@@ -39,7 +39,7 @@ Files: src/imports/activitiesextensionplugin.cpp
        src/utils/merge_into.h
        src/utils/range.h
        src/utils/remove_if.h
-Copyright: 2010-2014, Ivan Cukic <ivan.cukic(at)kde.org>
+Copyright: 2010-2015, Ivan Cukic <ivan.cukic(at)kde.org>
            2008, Aaron Seigo <aseigo@kde.org>
 License: LGPL-2+
 
@@ -48,11 +48,11 @@ Files: src/lib/core/consumer.cpp
        src/lib/core/consumer_p.h
        src/lib/core/controller.cpp
        src/lib/core/controller.h
-       src/lib/core/dbusfuture_p.cpp
        src/lib/core/info.cpp
        src/lib/core/info.h
        src/lib/core/info_p.h
-Copyright: 2010-2012, Ivan Cukic <ivan.cukic(at)kde.org>
+       src/utils/dbusfuture_p.cpp
+Copyright: 2010-2013, Ivan Cukic <ivan.cukic(at)kde.org>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
