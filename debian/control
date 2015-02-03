@@ -54,6 +54,7 @@ Description: Runtime to organize the user work in separate activities.
 
 Package: libkf5activities5-dbg
 Architecture: any
+Multi-arch: same
 Priority: extra
 Section: debug
 Depends: libkf5activities5 (= ${binary:Version}), ${misc:Depends}
