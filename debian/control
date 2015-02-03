@@ -3,8 +3,8 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
-               debhelper (>= 9.0.0),
+Build-Depends: cmake (>= 2.8.11),
+               debhelper (>= 9),
                extra-cmake-modules (>= 1.6.0),
                kio-dev (>= 5.6.0),
                libboost-dev,
@@ -12,13 +12,14 @@ Build-Depends: cmake,
                libkf5coreaddons-dev (>= 5.6.0),
                libkf5dbusaddons-dev (>= 5.6.0),
                libkf5declarative-dev (>= 5.6.0),
+               libkf5globalaccel-dev (>= 5.6.0),
                libkf5i18n-dev (>= 5.6.0),
                libkf5kcmutils-dev (>= 5.6.0),
-               libkf5kjs-dev (>= 5.6.0),
                libkf5service-dev (>= 5.6.0),
                libkf5windowsystem-dev (>= 5.6.0),
+               libkf5xmlgui-dev (>= 5.6.0),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev,
+               qtbase5-dev (>= 5.2.0),
                qtdeclarative5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kde/kdelibs/kactivities
@@ -28,7 +29,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kactivities.git
 Package: libkf5activities-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5activities5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Depends: libkf5activities5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.2.0),
+         ${misc:Depends}
 Description: development files for kactivities.
  This library provides functionality for managing Activities.
  .
