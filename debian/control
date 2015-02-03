@@ -64,7 +64,7 @@ Description: debug symbols for kactivities
 Package: qml-module-org-kde-extensionplugin
 Architecture: any
 Multi-arch: same
-Depends: libkf5activities5 (>= ${source:Version}),
+Depends: libkf5activities5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: libkf5activities5 (<< 5.1.0-0ubuntu1)
