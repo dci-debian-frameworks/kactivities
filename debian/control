@@ -23,7 +23,7 @@ Build-Depends: cmake (>= 2.8.11),
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/kde/kdelibs/kactivities
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kactivities.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kactivities.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kactivities.git
 
 Package: libkf5activities-dev
