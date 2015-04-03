@@ -1,5 +1,6 @@
 usr/bin/kactivitymanagerd
 usr/lib/*/qt5/plugins/kactivitymanagerd/kactivitymanagerd_plugin_activitytemplates.so
+usr/lib/*/qt5/plugins/kactivitymanagerd/kactivitymanagerd_plugin_eventspy.so
 usr/lib/*/qt5/plugins/kactivitymanagerd/kactivitymanagerd_plugin_globalshortcuts.so
 usr/lib/*/qt5/plugins/kactivitymanagerd/kactivitymanagerd_plugin_slc.so
 usr/lib/*/qt5/plugins/kactivitymanagerd/kactivitymanagerd_plugin_sqlite.so
@@ -10,6 +11,7 @@ usr/lib/*/qt5/plugins/kio_activities.so
 usr/share/kf5/kactivitymanagerd/workspace/settings/BlacklistApplicationView.qml
 usr/share/kservices5/activities.protocol
 usr/share/kservices5/kactivitymanagerd-plugin-activitytemplates.desktop
+usr/share/kservices5/kactivitymanagerd-plugin-eventspy.desktop
 usr/share/kservices5/kactivitymanagerd-plugin-globalshortcuts.desktop
 usr/share/kservices5/kactivitymanagerd-plugin-slc.desktop
 usr/share/kservices5/kactivitymanagerd-plugin-sqlite.desktop
