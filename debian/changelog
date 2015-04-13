@@ -1,8 +1,8 @@
-kactivities-kf5 (5.9.0-0ubuntu1) UNRELEASED; urgency=medium
+kactivities-kf5 (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 10:45:49 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:27:18 +0200
 
 kactivities-kf5 (5.8.0-0ubuntu1) vivid; urgency=medium
 
