@@ -1,11 +1,11 @@
-kactivities-kf5 (5.12.0-2) UNRELEASED; urgency=medium
+kactivities-kf5 (5.12.0-2) unstable; urgency=high
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make kactivities depend upon libqt5sql5-sqlite, as it's a harcoded
     requirement (Closes: #793826).
   * Make libkf5activities5-dbg recommend qtbase5-dbg, as it's based on it.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 27 Jul 2015 22:55:18 -0300
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 27 Jul 2015 22:55:18 -0300
 
 kactivities-kf5 (5.12.0-1) unstable; urgency=medium
 
