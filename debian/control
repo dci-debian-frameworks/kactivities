@@ -47,7 +47,10 @@ Description: Library to organize the user work in separate activities.
 
 Package: kactivities
 Architecture: any
-Depends: plasma-framework, ${misc:Depends}, ${shlibs:Depends}
+Depends: plasma-framework,
+         qml-module-org-kde-activities,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: libkactivities-bin
 Description: Runtime to organize the user work in separate activities.
  This library provides functionality for managing Activities.
@@ -63,16 +66,26 @@ Description: debug symbols for kactivities
  .
  Contains debug symbols for kactivities.
 
-Package: qml-module-org-kde-extensionplugin
+Package: qml-module-org-kde-activities
 Architecture: any
 Multi-arch: same
 Depends: libkf5activities5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: libkf5activities5 (<< 5.1.0-0ubuntu1)
-Replaces: libkf5activities5 (<< 5.1.0-0ubuntu1)
-Description: provides integration of QML and KDE Frameworks - extensionplugin
+Breaks: libkf5activities5 (<< 5.1.0-0ubuntu1),
+        qml-module-org-kde-extensionplugin (<< 5.13.0+git20150826.0700)
+Replaces: libkf5activities5 (<< 5.1.0-0ubuntu1),
+          qml-module-org-kde-extensionplugin (<< 5.13.0+git20150826.0700)
+Description: provides integration of QML and KDE Frameworks
  This import contains KDE extras that are visually similar to Qt Quick
  Controls.
  .
  This package contains the QML files used by libkf5declarative.
+
+Package: qml-module-org-kde-extensionplugin
+Depends: qml-module-org-kde-activities, ${misc:Depends}
+Architecture: all
+Priority: extra
+Section: oldlibs
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
