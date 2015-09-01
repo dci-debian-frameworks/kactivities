@@ -1,6 +1,7 @@
 kactivities-kf5 (5.13.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.13.0).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 20:23:43 +0200
 
