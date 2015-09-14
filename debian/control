@@ -47,7 +47,8 @@ Description: Library to organize the user work in separate activities.
 Package: kactivities
 Architecture: any
 Depends: libqt5sql5-sqlite, ${misc:Depends}, ${shlibs:Depends}
-Conflicts: libkactivities-bin
+Breaks: libkactivities-bin
+Replaces: libkactivities-bin
 Description: Runtime to organize the user work in separate activities.
  This library provides functionality for managing Activities.
 
