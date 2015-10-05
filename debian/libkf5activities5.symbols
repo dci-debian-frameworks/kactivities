@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
 libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZN11KActivities10Controller11addActivityERK7QString@Base 4.96.0
  _ZN11KActivities10Controller11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -88,8 +88,8 @@ libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZNK11KActivities8Consumer10activitiesEv@Base 4.96.0
  _ZNK11KActivities8Consumer10metaObjectEv@Base 4.96.0
  _ZNK11KActivities8Consumer15currentActivityEv@Base 4.96.0
- (optional=templinst)_ZNKSt8functionIFvvEEclEv@Base 4.97.0
- (optional=templinst)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 5.13.0
+ (optional=templinst|arch=armel)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 5.14.0
+ (optional=templinst|arch=!armel)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 5.13.0
  (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 5.11.0
  (optional=templinst|arch=!armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4.98.0
  _ZTIN11KActivities10ControllerE@Base 4.96.0
@@ -114,5 +114,3 @@ libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZTVN11KActivities16ResourceInstanceE@Base 4.96.0
  _ZTVN11KActivities4InfoE@Base 4.96.0
  _ZTVN11KActivities8ConsumerE@Base 4.96.0
- (optional=gccinternal|arch=armel)_ZTVSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 5.11.0
- (optional=gccinternal|arch=!armel)_ZTVSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4.98.0
