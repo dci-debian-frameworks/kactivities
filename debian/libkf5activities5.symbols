@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64
+# SymbolsHelper-Confirmed: 5.15.0+git20151014.0121+15.10 amd64 i386
 libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZN11KActivities10Controller11addActivityERK7QString@Base 4.96.0
  _ZN11KActivities10Controller11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -10,6 +10,7 @@ libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZN11KActivities10Controller15setActivityNameERK7QStringS3_@Base 4.96.0
  _ZN11KActivities10Controller16staticMetaObjectE@Base 4.96.0
  _ZN11KActivities10Controller18setCurrentActivityERK7QString@Base 4.96.0
+ _ZN11KActivities10Controller22setActivityDescriptionERK7QStringS3_@Base 5.15.0+git20151014.0121+15.10
  _ZN11KActivities10ControllerC1EP7QObject@Base 4.96.0
  _ZN11KActivities10ControllerC2EP7QObject@Base 4.96.0
  _ZN11KActivities10ControllerD0Ev@Base 4.96.0
@@ -46,6 +47,7 @@ libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZN11KActivities4Info11qt_metacastEPKc@Base 4.96.0
  _ZN11KActivities4Info12stateChangedENS0_5StateE@Base 4.96.0
  _ZN11KActivities4Info16staticMetaObjectE@Base 4.96.0
+ _ZN11KActivities4Info18descriptionChangedERK7QString@Base 5.15.0+git20151014.0121+15.10
  _ZN11KActivities4Info5addedEv@Base 4.96.0
  _ZN11KActivities4Info7removedEv@Base 4.96.0
  _ZN11KActivities4Info7startedEv@Base 4.96.0
@@ -77,6 +79,7 @@ libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZNK11KActivities16ResourceInstance5winIdEv@Base 4.96.0
  _ZNK11KActivities16ResourceInstance8mimetypeEv@Base 4.96.0
  _ZNK11KActivities4Info10metaObjectEv@Base 4.96.0
+ _ZNK11KActivities4Info11descriptionEv@Base 5.15.0+git20151014.0121+15.10
  _ZNK11KActivities4Info12availabilityEv@Base 4.96.0
  _ZNK11KActivities4Info2idEv@Base 4.96.0
  _ZNK11KActivities4Info3uriEv@Base 4.96.0
