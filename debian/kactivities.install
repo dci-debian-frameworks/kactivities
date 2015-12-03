@@ -10,5 +10,4 @@ usr/share/kservices5/kactivitymanagerd.desktop
 usr/share/kservices5/kactivitymanagerd_fileitem_linking_plugin.desktop
 usr/share/kservices5/kcm_activities.desktop
 usr/share/kservicetypes5/kactivitymanagerd-plugin.desktop
-usr/lib/*/qt5/qml/org/kde/activities/settings/
 usr/share/locale/*/*/kactivities5.mo
