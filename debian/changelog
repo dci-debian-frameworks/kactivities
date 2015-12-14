@@ -1,8 +1,9 @@
-kactivities-kf5 (5.16.0-1ubuntu1) UNRELEASED; urgency=medium
+kactivities-kf5 (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Debian merge: No remaining changes. 
+  * New upstream release Xenial
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Sun, 13 Dec 2015 16:10:25 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:11:23 +0000
 
 kactivities-kf5 (5.16.0-1) unstable; urgency=medium
 
