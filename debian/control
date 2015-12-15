@@ -46,9 +46,9 @@ Description: Library to organize the user work in separate activities.
 
 Package: kactivities
 Architecture: any
-Depends: plasma-framework,
+Depends: libqt5sql5-sqlite,
+         plasma-framework,
          qml-module-org-kde-activities,
-         libqt5sql5-sqlite,
          ${misc:Depends},
          ${shlibs:Depends}
 Conflicts: libkactivities-bin
