@@ -1,1 +1,4 @@
 kactivities: binary-without-manpage usr/bin/kactivitymanagerd
+kactivities: package-name-doesnt-match-sonames libkactivitymanagerd-plugin
+kactivities: shlib-without-versioned-soname usr/lib/x86_64-linux-gnu/libkactivitymanagerd_plugin.so libkactivitymanagerd_plugin.so
+kactivities: postinst-must-call-ldconfig usr/lib/x86_64-linux-gnu/libkactivitymanagerd_plugin.so
