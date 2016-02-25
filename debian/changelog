@@ -1,3 +1,17 @@
+kactivities-kf5 (5.19.0-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Merged with Debian
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 25 Feb 2016 22:40:03 +0000
+
+kactivities-kf5 (5.18.0-1) experimental; urgency=medium
+
+  * New upstream release (5.17.0).
+  * New upstream release (5.18.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:42 +0100
+
 kactivities-kf5 (5.18.0-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]

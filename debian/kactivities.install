@@ -4,6 +4,7 @@ usr/lib/*/qt5/plugins/kactivitymanagerd/
 usr/lib/*/qt5/plugins/kactivitymanagerd_fileitem_linking_plugin.so
 usr/lib/*/qt5/plugins/kcm_activities.so
 usr/lib/*/qt5/plugins/kio_activities.so
+usr/lib/*/qt5/qml/org/kde/activities/settings/
 usr/share/kf5/kactivitymanagerd/
 usr/share/kservices5/activities.protocol
 usr/share/kservices5/kactivitymanagerd.desktop
