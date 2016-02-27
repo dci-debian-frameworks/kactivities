@@ -16,6 +16,7 @@ Build-Depends: cmake (>= 2.8.11),
                libkf5i18n-dev (>= 5.18.0~),
                libkf5kcmutils-dev (>= 5.18.0~),
                libkf5service-dev (>= 5.18.0~),
+               libkf5widgetsaddons-dev (>= 5.18.0~),
                libkf5windowsystem-dev (>= 5.18.0~),
                libkf5xmlgui-dev (>= 5.18.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
@@ -46,12 +47,7 @@ Description: Library to organize the user work in separate activities.
 
 Package: kactivities
 Architecture: any
-Depends: libqt5sql5-sqlite,
-         plasma-framework,
-         qml-module-org-kde-activities,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Conflicts: libkactivities-bin
+Depends: libqt5sql5-sqlite, ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkactivities-bin
 Replaces: libkactivities-bin
 Description: Runtime to organize the user work in separate activities.
@@ -63,20 +59,10 @@ Multi-arch: same
 Depends: libkf5activities5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: libkf5activities5 (<< 5.1.0-0ubuntu1),
-        qml-module-org-kde-extensionplugin (<< 5.13.0+git20150903.0700)
-Replaces: libkf5activities5 (<< 5.1.0-0ubuntu1),
-          qml-module-org-kde-extensionplugin (<< 5.13.0+git20150903.0700)
-Description: provides integration of QML and KDE Frameworks
+Breaks: libkf5activities5 (<< 5.1.0-0ubuntu1)
+Replaces: libkf5activities5 (<< 5.1.0-0ubuntu1)
+Description: provides integration of QML and KDE Frameworks - extensionplugin
  This import contains KDE extras that are visually similar to Qt Quick
  Controls.
  .
  This package contains the QML files used by libkf5declarative.
-
-Package: qml-module-org-kde-extensionplugin
-Depends: qml-module-org-kde-activities, ${misc:Depends}
-Architecture: all
-Priority: extra
-Section: oldlibs
-Description: transitional dummy package
- This is a transitional dummy package. It can safely be removed.
