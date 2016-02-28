@@ -1,4 +1,2 @@
 usr/lib/*/qt5/qml/org/kde/activities/libkactivitiesextensionplugin.so
 usr/lib/*/qt5/qml/org/kde/activities/qmldir
-usr/lib/*/qt5/qml/org/kde/activities/settings/libkactivitiessettingsplugin.so
-usr/lib/*/qt5/qml/org/kde/activities/settings/qmldir

@@ -41,16 +41,8 @@ Description: development files for kactivities.
 Package: libkf5activities5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kactivitymanagerd, ${misc:Depends}, ${shlibs:Depends}
 Description: Library to organize the user work in separate activities.
- This library provides functionality for managing Activities.
-
-Package: kactivities
-Architecture: any
-Depends: libqt5sql5-sqlite, ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkactivities-bin
-Replaces: libkactivities-bin
-Description: Runtime to organize the user work in separate activities.
  This library provides functionality for managing Activities.
 
 Package: qml-module-org-kde-extensionplugin
