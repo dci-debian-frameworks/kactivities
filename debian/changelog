@@ -6,6 +6,7 @@ kactivities-kf5 (5.19.0-1ubuntu1) UNRELEASED; urgency=medium
   * Removing kactivities packages and files in it,
     as upstream has split into new repositories
   * Depend on new package kactivitymanagerd
+  * Fixing install file and refreshing symbols
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 25 Feb 2016 22:40:03 +0000
 
