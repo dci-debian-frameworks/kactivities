@@ -45,6 +45,22 @@ Depends: kactivitymanagerd, ${misc:Depends}, ${shlibs:Depends}
 Description: Library to organize the user work in separate activities.
  This library provides functionality for managing Activities.
 
+Package: qml-module-org-kde-activities
+Architecture: any
+Multi-arch: same
+Depends: libkf5activities5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: libkf5activities5 (<< 5.1.0-0ubuntu1),
+        qml-module-org-kde-extensionplugin (<< 5.13.0+git20150903.0700)
+Replaces: libkf5activities5 (<< 5.1.0-0ubuntu1),
+          qml-module-org-kde-extensionplugin (<< 5.13.0+git20150903.0700)
+Description: provides integration of QML and KDE Frameworks
+ This import contains KDE extras that are visually similar to Qt Quick
+ Controls.
+ .
+ This package contains the QML files used by libkf5declarative.
+
 Package: qml-module-org-kde-extensionplugin
 Architecture: any
 Multi-arch: same
