@@ -1,6 +1,6 @@
-kactivities-kf5 (5.20.0-1~2.gbpe129e4) UNRELEASED; urgency=medium
+kactivities-kf5 (5.20.0-1~3.gbp0fdf52) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @e129e4d84e1da234f2c947c079970d4900ba9a71 **
+  ** SNAPSHOT build @0fdf52b12734f83c253b88403402d07bc29600a2 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +14,9 @@ kactivities-kf5 (5.20.0-1~2.gbpe129e4) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Update acc test script
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:05:16 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:05:26 +0200
 
 kactivities-kf5 (5.19.0-1) experimental; urgency=medium
 
