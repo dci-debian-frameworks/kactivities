@@ -1,6 +1,6 @@
-kactivities-kf5 (5.20.0-1~4.gbp6ddc04) UNRELEASED; urgency=medium
+kactivities-kf5 (5.21.0-1~1.gbpf80a5e) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6ddc04c9b7549a0e084d3f8928d816c0697f86cb **
+  ** SNAPSHOT build @f80a5e16d0b117fdbcae83562bb90f4858516115 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -17,7 +17,16 @@ kactivities-kf5 (5.20.0-1~4.gbp6ddc04) UNRELEASED; urgency=medium
   * UNRELEASED
   * Drop removed files.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 06 Apr 2016 10:21:32 +0200
+  [ Automatic packaging ]
+  * Drop the kactivities package, moved to plasma.
+
+  [ Maximiliano Curia ]
+  * uscan no longer supports more than one main upstream tarball being listed
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 10:05:17 +0200
 
 kactivities-kf5 (5.19.0-1) experimental; urgency=medium
 
