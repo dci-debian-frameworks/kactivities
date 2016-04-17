@@ -1,6 +1,6 @@
-kactivities-kf5 (5.21.0-1~2.gbp351abc) UNRELEASED; urgency=medium
+kactivities-kf5 (5.21.0-1~3.gbpb4bdba) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @351abc824fad530d30431dfe4cc3880d31bcd3a6 **
+  ** SNAPSHOT build @b4bdbaa9a753d177406c4f5601a56cb628ee7b3c **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,6 +12,7 @@ kactivities-kf5 (5.21.0-1~2.gbp351abc) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
+  * Update symbols files.
 
   [ Maximiliano Curia ]
   * Update acc test script
@@ -27,7 +28,7 @@ kactivities-kf5 (5.21.0-1~2.gbp351abc) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 17 Apr 2016 14:00:10 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 17 Apr 2016 15:58:40 +0200
 
 kactivities-kf5 (5.19.0-1) experimental; urgency=medium
 
