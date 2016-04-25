@@ -1,3 +1,9 @@
+kactivities-kf5 (5.20.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release, xenial backport.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 25 Apr 2016 13:05:38 -0700
+
 kactivities-kf5 (5.19.0-1ubuntu1) UNRELEASED; urgency=medium
 
   [ Clive Johnston ]
