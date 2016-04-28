@@ -41,7 +41,8 @@ Description: development files for kactivities.
 Package: libkf5activities5
 Architecture: any
 Multi-Arch: same
-Depends: kactivitymanagerd, ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: kactivitymanagerd
 Description: Library to organize the user work in separate activities.
  This library provides functionality for managing Activities.
 
