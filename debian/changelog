@@ -1,3 +1,10 @@
+kactivities-kf5 (5.22.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Update symbols file from build logs
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 29 May 2016 13:30:29 -0400
+
 kactivities-kf5 (5.22.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
