@@ -1,3 +1,11 @@
+kactivities-kf5 (5.23.0-1~1.gbpff9ffa) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ff9ffa655167536611554c5644793fa4873c3393 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 13 Jun 2016 01:05:32 +0200
+
 kactivities-kf5 (5.22.0-2) unstable; urgency=medium
 
   * Team upload.
