@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.22.0 armel
+# SymbolsHelper-Confirmed: 5.23.0 amd64 arm64 armel armhf hurd-i386 i386 ppc64el
 libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZN11KActivities10Controller11addActivityERK7QString@Base 4.96.0
  _ZN11KActivities10Controller11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -79,6 +79,7 @@ libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZN11KActivities8Consumer17activitiesChangedERK11QStringList@Base 4.96.0
  _ZN11KActivities8Consumer20serviceStatusChangedENS0_13ServiceStatusE@Base 4.96.0
  _ZN11KActivities8Consumer22currentActivityChangedERK7QString@Base 4.96.0
+ _ZN11KActivities8Consumer24runningActivitiesChangedERK11QStringList@Base 5.23.0
  _ZN11KActivities8ConsumerC1EP7QObject@Base 4.96.0
  _ZN11KActivities8ConsumerC2EP7QObject@Base 4.96.0
  _ZN11KActivities8ConsumerD0Ev@Base 4.96.0
@@ -109,6 +110,7 @@ libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZNK11KActivities8Consumer10activitiesEv@Base 4.96.0
  _ZNK11KActivities8Consumer10metaObjectEv@Base 4.96.0
  _ZNK11KActivities8Consumer15currentActivityEv@Base 4.96.0
+ _ZNK11KActivities8Consumer17runningActivitiesEv@Base 5.23.0
  (optional=templinst|arch=armel)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 5.14.0
  (optional=templinst|arch=!armel)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 5.13.0
  (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 5.11.0
