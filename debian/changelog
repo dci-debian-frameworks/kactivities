@@ -1,3 +1,11 @@
+kactivities-kf5 (5.23.0-2~1.gbp106ec4) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @106ec406eedd28aae4e8fcfaae8308f147afcd99 **
+
+  * Update symbols files from buildds logs (5.23.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 23 Jun 2016 10:05:16 +0200
+
 kactivities-kf5 (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
