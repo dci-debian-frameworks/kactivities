@@ -1,10 +1,11 @@
-kactivities-kf5 (5.23.0-2~1.gbp106ec4) UNRELEASED; urgency=medium
+kactivities-kf5 (5.24.0-1~1.gbp2e09b8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @106ec406eedd28aae4e8fcfaae8308f147afcd99 **
+  ** SNAPSHOT build @2e09b8ce1c19c71d71b0041f07ef46e79a41f04c **
 
   * Update symbols files from buildds logs (5.23.0-1).
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 23 Jun 2016 10:05:16 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 13:05:10 +0200
 
 kactivities-kf5 (5.23.0-1) unstable; urgency=medium
 
