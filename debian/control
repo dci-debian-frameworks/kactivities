@@ -42,6 +42,7 @@ Package: libkf5activities5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: kactivities-bin, kactivitymanagerd
 Description: Library to organize the user work in separate activities.
  This library provides functionality for managing Activities.
 
@@ -60,6 +61,14 @@ Description: provides integration of QML and KDE Frameworks
  Controls.
  .
  This package contains the QML files used by libkf5declarative.
+
+Package: kactivities-bin
+Architecture: any
+Multi-arch: no
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Command Line Tool for KActivities
+ kactivities-cli is a command line tool to interact with KActivities
+ or for help with shell completion.
 
 Package: qml-module-org-kde-extensionplugin
 Depends: qml-module-org-kde-activities, ${misc:Depends}
