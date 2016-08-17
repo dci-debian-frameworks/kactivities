@@ -1,10 +1,14 @@
 kactivities-kf5 (5.25.0-1~1.gbp363aa0) UNRELEASED; urgency=medium
 
+  [ Automatic packaging ]
   ** SNAPSHOT build @363aa0d7b5a50bb1e118f6604dc777eb58c60d73 **
 
   * Update symbols files from buildds logs (5.23.0-1).
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Update symbols files.
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 13:05:10 +0200
 

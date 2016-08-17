@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.23.0 amd64 arm64 armel armhf hurd-i386 i386 ppc64el
+# SymbolsHelper-Confirmed: 5.25.0 amd64
 libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZN11KActivities10Controller11addActivityERK7QString@Base 4.96.0
  _ZN11KActivities10Controller11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -58,6 +58,7 @@ libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZN11KActivities4Info11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN11KActivities4Info11qt_metacastEPKc@Base 4.96.0
  _ZN11KActivities4Info12stateChangedENS0_5StateE@Base 4.96.0
+ _ZN11KActivities4Info16isCurrentChangedEb@Base 5.25.0
  _ZN11KActivities4Info16staticMetaObjectE@Base 4.96.0
  _ZN11KActivities4Info18descriptionChangedERK7QString@Base 5.16.0
  _ZN11KActivities4Info5addedEv@Base 4.96.0
@@ -106,6 +107,7 @@ libKF5Activities.so.5 libkf5activities5 #MINVER#
  _ZNK11KActivities4Info4nameEv@Base 4.96.0
  _ZNK11KActivities4Info5stateEv@Base 4.96.0
  _ZNK11KActivities4Info7isValidEv@Base 4.96.0
+ _ZNK11KActivities4Info9isCurrentEv@Base 5.25.0
  _ZNK11KActivities8Consumer10activitiesENS_4Info5StateE@Base 4.96.0
  _ZNK11KActivities8Consumer10activitiesEv@Base 4.96.0
  _ZNK11KActivities8Consumer10metaObjectEv@Base 4.96.0
