@@ -52,9 +52,9 @@ Depends: libkf5activities5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: libkf5activities5 (<< 5.1.0-0ubuntu1),
-        qml-module-org-kde-extensionplugin (<< 5.13.0+git20150826.0700)
+        qml-module-org-kde-extensionplugin (<< 5.25.0-1~)
 Replaces: libkf5activities5 (<< 5.1.0-0ubuntu1),
-          qml-module-org-kde-extensionplugin (<< 5.13.0+git20150826.0700)
+          qml-module-org-kde-extensionplugin (<< 5.25.0-1~)
 Description: provides integration of QML and KDE Frameworks
  This import contains KDE extras that are visually similar to Qt Quick
  Controls.
