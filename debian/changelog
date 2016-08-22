@@ -1,3 +1,11 @@
+kactivities-kf5 (5.25.0-2~1.gbp607e22) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @607e22040e0e5c8385ecdaac2c81b96e2db7bf9c **
+
+  * Drop Multi-arch: no field
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 22 Aug 2016 20:05:14 +0200
+
 kactivities-kf5 (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
