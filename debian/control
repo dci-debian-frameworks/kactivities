@@ -65,7 +65,6 @@ Description: provides integration of QML and KDE Frameworks
 
 Package: kactivities-bin
 Architecture: any
-Multi-arch: no
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Command Line Tool for KActivities
  kactivities-cli is a command line tool to interact with KActivities
