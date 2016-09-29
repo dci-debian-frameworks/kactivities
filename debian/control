@@ -45,7 +45,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: kactivities-bin, kactivitymanagerd
 Description: Library to organize the user work in separate activities.
  This library provides functionality for managing Activities.
-Breaks: libkf5activitiesstats1 (<< 5.25), plasma-framework (<< 5.25)
+Breaks: libkf5activitiesstats1 (<< 5.26), plasma-framework (<< 5.26)
 
 Package: qml-module-org-kde-activities
 Architecture: any
