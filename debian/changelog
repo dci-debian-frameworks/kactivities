@@ -1,10 +1,13 @@
-kactivities-kf5 (5.27.0-1~1.gbp0fb886) UNRELEASED; urgency=medium
+kactivities-kf5 (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @0fb8860d499020f363965202ec53294fa098e459 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 13:05:33 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:08:29 +0200
 
 kactivities-kf5 (5.26.0-1) unstable; urgency=medium
 
