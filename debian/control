@@ -88,7 +88,7 @@ Description: provides integration of QML and KDE Frameworks
 Package: qml-module-org-kde-extensionplugin
 Depends: qml-module-org-kde-activities, ${misc:Depends}
 Architecture: all
-Priority: extra
+Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
