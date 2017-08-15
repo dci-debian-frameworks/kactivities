@@ -59,6 +59,7 @@ Description: Library to organize the user work in separate activities (documenta
  This library provides functionality for managing Activities.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5activities5
 Architecture: any
