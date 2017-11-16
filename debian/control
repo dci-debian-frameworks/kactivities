@@ -74,14 +74,14 @@ Description: Command Line Tool for KActivities
 Package: qml-module-org-kde-extensionplugin
 Depends: qml-module-org-kde-activities, ${misc:Depends}
 Architecture: all
-Priority: extra
+Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: kactivities
 Architecture: all
-Priority: extra
+Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
