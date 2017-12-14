@@ -85,11 +85,3 @@ Description: provides integration of QML and KDE Frameworks
  Controls.
  .
  This package contains the QML files used by libkf5declarative.
-
-Package: qml-module-org-kde-extensionplugin
-Depends: qml-module-org-kde-activities, ${misc:Depends}
-Architecture: all
-Priority: optional
-Section: oldlibs
-Description: transitional dummy package
- This is a transitional dummy package. It can safely be removed.
